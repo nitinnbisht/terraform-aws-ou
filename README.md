@@ -14,7 +14,6 @@ This Terraform module helps to create nested Organizational Units (OUs) within a
 ```hcl
 module "ou" {
   source = "git::https://github.com/nitinnbisht/terraform-aws-ou.git"
-  version = "0.0.1"
 
   root_ou_id = "r-example"
 
